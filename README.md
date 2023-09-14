@@ -55,14 +55,4 @@ Before migrating to Version 2, ensure that you have a clear backup of your Versi
 
 Update your application's documentation to reflect the changes introduced in Version 2. Provide clear instructions on how to work with the new Hibernate, Jakarta EE 9, and HikariCP integration. Once your application has been thoroughly tested and refined, deploy the Version 2 release to your production environment.
 
-## Conclusion
 
-Migrating to **schoolapp-jsp-mysql-hibernate** Version 2 with Hibernate, Jakarta EE 9, and HikariCP integration represents a significant enhancement in data management and persistence capabilities. By following the steps outlined in this guide, you can seamlessly transition your application to the new version and take advantage of the benefits offered by these technologies.
-
-Big shoutout to the collaborators who've enriched this project with their contributions. [Explore Constantine's Contributions](https://github.com/ConstantineVac).
-
-For more detailed information about Hibernate, Jakarta EE 9, and HikariCP, refer to their respective documentation:
-
-- [**Hibernate Documentation**](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)
-- [**Jakarta EE 9 Documentation**](https://jakarta.ee/specifications/platform/9.0/jakarta-platform-spec-9.0.pdf)
-- [**HikariCP Documentation**](https://github.com/brettwooldridge/HikariCP)
