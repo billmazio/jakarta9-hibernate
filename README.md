@@ -31,7 +31,7 @@ For a comprehensive understanding of Hibernate, Jakarta EE, and HikariCP, refer 
 
 # Migrating from schoolapp-jsp-mysql-hibernate Version to jakarta9-hibernate Version 3: Hibernate and Entity Manager Integration
 
-In this guide, we'll walk you through the process of migrating from the second version of **schoolapp-jsp-mysql-hibernate** (for more information about the second version, refer to the [GitHub repository](https://github.com/billmazio/schoolapp)) to the enhanced **schoolapp-jsp-mysql-hibernate** Version 2. The major update in Version 2 is the integration of Hibernate with the Entity Manager and the adoption of Jakarta EE 9, offering improved data management and persistence capabilities.
+In this guide, we'll walk you through the process of migrating from the second version of **schoolapp-jsp-mysql-hibernate** (for more information about the second version, refer to the [GitHub repository](https://github.com/billmazio/schoolapp-jsp-mysql-hibernate.git)) to the enhanced **jakarta9-hibernate** Version 3. The major update in Version 3 is the integration of Hibernate with the Entity Manager and the adoption of Jakarta EE 9, offering improved data management and persistence capabilities.
 
 ## Step 1: Understanding the Upgrade
 
