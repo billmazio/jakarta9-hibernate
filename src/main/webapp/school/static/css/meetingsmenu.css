@@ -1,0 +1,112 @@
+body {
+    background: #A57D84;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.search-wrapper, .insert-wrapper {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 18px;  /* Updated here */
+}
+
+.bot-gap {
+    margin-bottom: 20px;
+}
+
+/* General style for the <select> dropdowns */
+select {
+    width: 150px;
+    height: 35px;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 1px solid #d1d1d1;
+    border-radius: 18px;
+    appearance: none;
+    background-color: #f9f9f9;
+    transition: border-color 0.2s ease;
+}
+
+select:hover {
+    border-color: #007BFF;
+    background-color: #f1f1f1;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom arrow for the dropdown */
+select::-ms-expand {
+    display: none;
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.select-wrapper::after {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 10px;
+}
+
+.title {
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+input[type=text].search {
+    width: 200px;
+    height: 50px;
+    background-image: url('${pageContext.request.contextPath}/school/static/img/search.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
+    padding-left: 45px;
+    border-radius: 18px;  /* Updated here */
+}
+.room-input {
+    margin-bottom: 20px; /* adjust as required */
+}
+
+.rounded {
+    border-radius: 18px;
+    border: 1.5px solid black;
+}
+
+.color-btn {
+    background-color: #B5D6C5;
+}
+
+/* Remove focus border added by browser */
+input.search:focus {
+    outline: none;
+}
+
+.search-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 18px;  /* Updated here */
+}
+
+.insert {
+    padding-left: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 18px;  /* Updated here */
+}

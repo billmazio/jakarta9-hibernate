@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-link {
+    color: lightslategray; /* replace with your desired color */
+}
+
+
+.container-fluid {
+    width: 50%;   
+    margin: 10px auto;
+    background-color: darkgray;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    min-height: 370px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    padding-top: 15px;
+    color: dimgray;
+}
+
+.container>.row:first-child {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container input[type="username"], .container input[type="password"] {
+    width: 70%;
+    height: 40px;
+    background-color: #faf4f4;
+    border-radius: 5px;
+    border-width: 0;
+    padding-left: 10px;
+}
+
+.container button[type="submit"] {
+    width: 90%;
+    height: 40px;
+    background-color: darkgray;
+    border-radius: 2px;
+    border-width: 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container>.row:last-child {
+    padding-top: 25px;
+}
+
+.container>.row:last-child > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-fluid>.row:last-child {
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+.container-fluid>.row:last-child  a {
+    color: inherit;
+}
+
+.text-grey {
+    color: lightslategray;
+}
+
+.container input[type="text"]:valid + span::before,
+.container input[type="password"]:valid + span::before {
+    content: '\2713';
+    font-size: 20px;
+    color: green;
+}
+
+
+
+
