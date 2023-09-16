@@ -39,7 +39,7 @@ Version 3 of **jakarta9-hibernate** introduces a more sophisticated approach to 
 
 ## Step 2: Preparing for Migration
 
-Before migrating to Version 2, ensure that you have a clear backup of your Version 1 codebase and any associated data. Review the changes and enhancements introduced in Version 2, with a focus on the Hibernate, Jakarta EE 9, and HikariCP integration. Familiarize yourself with the concepts of entity classes, configuration, and database operations using these technologies.
+Before migrating to Version 3, ensure that you have a clear backup of your Version 2 codebase and any associated data. Review the changes and enhancements introduced in Version 3, with a focus on the Hibernate, Jakarta EE 9, and HikariCP integration. Familiarize yourself with the concepts of entity classes, configuration, and database operations using these technologies.
 
 ## Step 3: Integrating Hibernate, Jakarta EE 9, and HikariCP
 
@@ -53,6 +53,6 @@ Before migrating to Version 2, ensure that you have a clear backup of your Versi
 
 ## Step 4: Documentation and Deployment
 
-Update your application's documentation to reflect the changes introduced in Version 2. Provide clear instructions on how to work with the new Hibernate, Jakarta EE 9, and HikariCP integration. Once your application has been thoroughly tested and refined, deploy the Version 2 release to your production environment.
+Update your application's documentation to reflect the changes introduced in Version 3. Provide clear instructions on how to work with the new Hibernate, Jakarta EE 9, and HikariCP integration. Once your application has been thoroughly tested and refined, deploy the Version 3 release to your production environment.
 
 
