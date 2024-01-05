@@ -35,8 +35,8 @@
 
             <!-- Database connection details. Move these to a secure place in production -->
             <property name="hibernate.hikari.dataSource.url" value="jdbc:mysql://localhost:3306/seminardb?serverTimezone=UTC"/>
-            <property name="hibernate.hikari.dataSource.user" value="root"/>
-            <property name="hibernate.hikari.dataSource.password" value="ww321278?"/>
+            <property name="hibernate.hikari.dataSource.user" value=""/>
+            <property name="hibernate.hikari.dataSource.password" value=""/>
         </properties>
     </persistence-unit>
 </persistence>
